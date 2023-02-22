@@ -1,0 +1,55 @@
+body {
+	font-family: Arial;
+}
+
+#header {
+	text-align: center;
+}
+
+.container {
+        display: flex;
+      }
+
+.left-column {
+      width: 60%;
+      background-color: lightblue; 
+    }
+
+.right-column {
+    width: 40%;
+    background-color: lightgray;
+    
+  }
+
+#frame {
+  width: 500px;
+  height:  500px;
+}
+
+.scatter_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: grey;
+  border:  solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.point {
+  fill: blue;
+}
+
+
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}

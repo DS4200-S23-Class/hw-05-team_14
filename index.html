@@ -3,10 +3,34 @@
 
 <head>
     <meta charset=utf-8/>
+
+    <title>hw-05</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src='js/d3.v6.1.1/d3.min.js'></script> 
 </head>
 
 
 <body>
+	<h1 id ="header">hw-05: Interactive Graph with D3</h1>
+
+	<div class="container">
+		<div class="left-column">
+			<div id="scatterplot"></div>
+			<div id="barchart"></div>
+
+		</div>
+	    <div class="right-column">
+	    	<label for="input-box">Enter X Coordinate:</label>
+			<input type="text" id="input-box" name="input-box">
+			<label for="input-box">Enter Y Coordinate:</label>
+			<input type="text" id="input-box" name="input-box">
+      	</div>	      
+    </div>
+
+
+    <script src= "main.js"></script>
 
 
 </body>
